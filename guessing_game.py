@@ -69,7 +69,7 @@ def start_game():
           welcome()
           print(f"\nThe HIGHSCORE is {high_score}\n")
         else:
-          print("\nGAME OVER!")
+          print("\nThank you for playing, Good Bye!")
           print(f"\nThe HIGHSCORE is {high_score}\n")
           break
 
