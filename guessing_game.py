@@ -61,7 +61,7 @@ def start_game():
         # take input whether player want to continue or not
         game = input("Do you want to continue? [y/n] : ")
 
-        if game == 'y' or game == 'Y':
+        if game.lower() == 'y':
           # reset trial
           trial = 0
           # re-generate actual random number
